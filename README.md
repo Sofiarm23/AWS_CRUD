@@ -25,11 +25,11 @@ Este repositorio contiene un ejemplo de una API CRUD que permite recuperar, agre
 import mysql from 'mysql';
 
 const con = mysql.createConnection({
-  host: 'database-producto.c9swies466uw.us-west-2.rds.amazonaws.com',
-  user: 'admin',
+  host: 'database.....amazonaws.com',
+  user: 'user_name',
   port: "3306",
-  password: 'Sofia2024*',
-  database: 'bd_producto',
+  password: 'password',
+  database: 'database_name',
 });
 
 export const handler = async (event, context) => {
