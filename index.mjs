@@ -1,10 +1,6 @@
 import mysql from 'mysql';
 const con = mysql.createConnection({
-  host: 'database-producto.c9swies466uw.us-west-2.rds.amazonaws.com',
-  user: 'admin',
-  port:"3306",
-  password: 'Sofia2024*',
-  database: 'bd_producto',
+
 });
 
 
